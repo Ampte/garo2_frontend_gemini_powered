@@ -19,7 +19,7 @@ const Form = () => {
 
         try {
             const res = await fetch(
-                'http://localhost:5000/translate',
+                'https://garo2-backend-gemini-powered.onrender.com/translate',
                 {
                     method: 'POST',
                     headers: {
